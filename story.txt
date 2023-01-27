@@ -7,4 +7,5 @@ Git commands to save your work
 3. git commit -m "First Change"
 4. to check all of the changes (git log)
 5. "git status " to check the untracked files (files that are in the directory but still not commited)
- 
+6. "git diff (name of file)" is to check the diferences between the saved and modified version
+7. "git checkout (name of file)" is to revert back the content that was in that file before you saved it  
