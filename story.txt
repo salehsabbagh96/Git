@@ -5,4 +5,6 @@ Git commands to save your work
 2A. Add the file you want to save its content (ex: git add story.txt)
 2B. In case you want to add the whole directory ( git add .)
 3. git commit -m "First Change"
-4. to check all of the changes (git log) 
+4. to check all of the changes (git log)
+5. "git status " to check the untracked files (files that are in the directory but still not commited)
+ 

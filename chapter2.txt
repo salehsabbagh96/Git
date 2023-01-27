@@ -1,0 +1,4 @@
+this will be for the vim commands
+1. "i" stands for insert which is used to add content to the file
+2. "esc :wq" is to SAVE your work and to EXIT
+3. "esc :w" is to ONLY SAVE your work
