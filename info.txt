@@ -1,6 +1,12 @@
-Git commands to save your work 
+Git commands
 
-
+1. "git init" to initialize git.
+2A. "git add (file name)" to add the file you want to save its content.
+2B. "git add ." in case you want to add the whole directory.
+3. "git commit -m 'First Change'" to commit
+4. "git log" to check all of the changes 
+5. "git status " to check the untracked files (files that are in the directory but still to be committed)
+6. "git diff (name of file)" is to check the differences between the saved and modified version
 1. initialize git (git init)
 2A. Add the file you want to save its content (ex: git add story.txt)
 2B. In case you want to add the whole directory ( git add .)
@@ -11,4 +17,11 @@ Git commands to save your work
 7. "git checkout (name of file)" is to revert back the content that was in that file before you saved it
 8. "git remote add origin (link)" to push an existing repository (stored locally)
 9. "git branch -M main"
-10. "git push -u origion main"  
+10. "git push -u origin main"  
+11. .gitignore is a file that can be added to your directory which contains all of the files that should n't be committed 
+12. "git clone (url)" is to clone projects from a specific source 
+13. "git branch (name of branch)" is to create a new branch other than the master (default one)
+14. "git branch" to check all the branches you got
+15. "git checkout (name of the branch)" changing branch
+16. "git merge (name of branch)" to commit all changes to the master branch (or to the branch you are currently in)
+ex: if you are in the "good-Day" branch and you have committed more than a change you can switch to the master and "git merge " all of the changes in the "good-Day" branch
